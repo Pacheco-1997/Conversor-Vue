@@ -35,13 +35,13 @@ export default {
                     .then(json =>{
                         
                         
-                        let cotacao = json[de_para].val;
+                        let cotacao = json[de_para];
                         
                         this.moedaB_value = (cotacao * parseFloat(this.moedaA_value)).toFixed(
                             2
                         )
                         
-                        
+                       
                         
                     
                     })
