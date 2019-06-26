@@ -27,7 +27,7 @@ export default {
             
             let url = "http://free.currencyconverterapi.com/api/v5/convert?q="+
                 de_para
-            +"&compact=ultra&apiKey=d84c5ee4d2c5a5e3c52e";
+            + //API KEY
 
             fetch(url)
                 .then(res => {
